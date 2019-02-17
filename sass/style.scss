@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500&subset=latin-ext');
+
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    padding-top: 42vh;
+    text-align: center;
+    background-image: url(http://kodilla.com/static/lessons/blue-mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron button {
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #4577ed;
+    -webkit-transition: background-color .3s;
+    /* Safari */
+    transition: background-color .3s;
+}
+
+.jumbotron button:hover {
+    background-color: #7e9efd;
+    cursor: pointer;
+
+}
+
+.gallery img {
+    float: left;
+    width: 25%;
+}
+
+.gallery img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.bgwhite {
+    background: white;
+    color: black;
+}
