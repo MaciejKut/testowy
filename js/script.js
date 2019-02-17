@@ -4,6 +4,7 @@ var button = document.getElementById('get-joke');
 button.addEventListener('click', function () {
     getJoke();
 });
+getJoke();
 
 var container = document.getElementById('joke');
 
